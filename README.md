@@ -4,3 +4,4 @@
 &nbsp;&nbsp;2.`dxgi4py.dll`为win10下编译好的64位dll库,可直接使用。
 
 &nbsp;&nbsp;3.条件有限,仅在64位`win10` `19045.3996`版本下测试并验证通过。&nbsp;
+&nbsp;&nbsp;4.无法使用的情况一般为，python使用了多线程模式、程序并没有采用dx渲染没有用到dxgi。&nbsp;
